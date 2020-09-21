@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 969143956159990911}
   - component: {fileID: 969143956159990909}
-  - component: {fileID: 969143956159990904}
   - component: {fileID: 969143956159990910}
+  - component: {fileID: 6426339880570638802}
   m_Layer: 0
   m_Name: BaseballBat
   m_TagString: Untagged
@@ -50,19 +50,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &969143956159990904
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 969143956159990905}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.28, y: 0.16090322, z: 1.1986601}
-  m_Center: {x: 0, y: 0.031121612, z: 0.61}
 --- !u!114 &969143956159990910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75,9 +62,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e77b4c8fbf66574498aae028ba430cb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attraction: -20
-  target: {fileID: 0}
+  rotateSpeed: 0
+  batImpactForce: 0
+  player: {fileID: 0}
   lookTarget: {fileID: 0}
+  lookGoal: {fileID: 0}
+  lookTargetSpeed: 0
+--- !u!136 &6426339880570638802
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969143956159990905}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.06
+  m_Height: 1.23
+  m_Direction: 2
+  m_Center: {x: 0, y: 0.025, z: 0.6}
 --- !u!1 &969143957020078786
 GameObject:
   m_ObjectHideFlags: 0
