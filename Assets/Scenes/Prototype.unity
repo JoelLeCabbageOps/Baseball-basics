@@ -407,7 +407,11 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &384867811
+=======
+--- !u!1 &396094324
+>>>>>>> parent of 7857e0d... Completed tasks
 =======
 --- !u!1 &396094324
 >>>>>>> parent of 7857e0d... Completed tasks
@@ -419,6 +423,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< HEAD
+<<<<<<< HEAD
   - component: {fileID: 384867814}
   - component: {fileID: 384867813}
   - component: {fileID: 384867812}
@@ -429,10 +434,16 @@ GameObject:
   m_Layer: 0
   m_Name: LookGoalsParent
 >>>>>>> parent of 7857e0d... Completed tasks
+=======
+  - component: {fileID: 396094325}
+  m_Layer: 0
+  m_Name: LookGoalsParent
+>>>>>>> parent of 7857e0d... Completed tasks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_IsActive: 0
 --- !u!199 &384867812
@@ -5278,11 +5289,16 @@ ParticleSystem:
   m_IsActive: 1
 --- !u!4 &396094325
 >>>>>>> parent of 7857e0d... Completed tasks
+=======
+  m_IsActive: 1
+--- !u!4 &396094325
+>>>>>>> parent of 7857e0d... Completed tasks
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_GameObject: {fileID: 384867811}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -5292,6 +5308,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
 =======
+=======
+>>>>>>> parent of 7857e0d... Completed tasks
   m_GameObject: {fileID: 396094324}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: -0.758, z: 0}
@@ -6198,4 +6216,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 247f7643f9ab55149949c695c8c369e9, type: 3}
+<<<<<<< HEAD
+>>>>>>> parent of 7857e0d... Completed tasks
+=======
 >>>>>>> parent of 7857e0d... Completed tasks
