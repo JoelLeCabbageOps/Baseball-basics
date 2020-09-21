@@ -1,12 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
 
 public class BaseballBat : MonoBehaviour
 {
     public float rotateSpeed;
-    public float batImpactForce;
 
     public Transform player;
     public Transform lookTarget;
@@ -77,20 +75,6 @@ public class BaseballBat : MonoBehaviour
         if (obInfo != null)
         {
             obInfo.currentHealth -= 1f;
-        }
-
-        NavMeshAgent agent = collision.transform.GetComponent<NavMeshAgent>();
-
-        if (agent != null)
-        {
-            // If the agent is found, store it's rigidbody, disable the agent, and add force to the gameObject.
-
-            Rigidbody rb = agent.GetComponent<Rigidbody>();
-
-            agent.enabled = false;
-
-            rb.AddForce(-collision.contacts[0].normal * batImpactForce, ForceMode.Impulse);
-                //lookTargetRb.AddForce(towardsTarget * lookTargetSpeed * Time.deltaTime, ForceMode.VelocityChange);
         }
     }
 
